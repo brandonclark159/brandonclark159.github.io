@@ -37,23 +37,23 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem ipsum ;alskdjfqiojvq;wkenfq;lwkejrq;lkwejr</p>
+                            <p>....but what I do have is a very particular set of skills. Skills I've acquired over a fairly short professional career.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Meter showing skill profiency with HTML, CSS, and JavaScript" />
                                     <h5>HTML, CSS, JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Meter showing skill profiency with ????" />
-                                    <h5>Lorem ipsum</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter3} alt="Meter showing skill profiency with ???" />
-                                    <h5>Lorem ipsum</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter1} alt="Meter showing skill profiency with React" />
+                                    <img src={meter2} alt="Meter showing skill profiency with React" />
                                     <h5>React</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="Meter showing skill profiency with Front-End CSS libraries" />
+                                    <h5>Tailwind/Bootstrap</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="Meter showing skill profiency with THE SPACE-O-METER!" />
+                                    <h5>Space-O-Meter</h5>
                                 </div>
                             </Carousel>
                         </div>
