@@ -5,6 +5,7 @@ import todoList from "../assets/img/todolist.png";
 import dallClone from "../assets/img/dalle-clone.png";
 import projImg3 from "../assets/img/project-img3.png";
 import recipeGenerator from "../assets/img/recipe-generator.png";
+import weatherApp from "../assets/img/weather-app.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -39,9 +40,9 @@ export const Projects = () => {
         imgUrl: recipeGenerator,
         },
         {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
+        title: "Simple Weather app",
+        description: "This is a simple weather app built with HTML, CSS, and JavaScript that utilizes the OpenWeatherMap API.",
+        imgUrl: weatherApp,
         },
     ];
 
