@@ -18,6 +18,7 @@ export const Footer = () => {
                             <a href='https://github.com/brandonclark159'><img src={navIcon2} alt=''/></a>
                         </div>
                         <p>Copyright 2023. All Rights Reserved Brandon Clark</p>
+                        <p>vaporwave by Muhammad Atiq from <a href="https://thenounproject.com/browse/icons/term/vaporwave/" target="_blank" title="vaporwave Icons">Noun Project</a></p>
                     </Col>
                 </Row>
             </Container>

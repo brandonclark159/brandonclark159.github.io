@@ -82,6 +82,8 @@ p.danger {
   color: red;
 }
 
+/* Navbar CSS */
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -370,6 +372,21 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.pie-text {
+  color: #fff;
+  font-family: 'Centra', sans-serif !important;
+}
+.pie-container {
+margin-left: 8px;
 }
 
 /* Projects CSS */
