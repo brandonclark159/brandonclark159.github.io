@@ -2,8 +2,8 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import pacman from "../assets/img/pacman.png";
 import todoList from "../assets/img/todolist.png";
+import virtualKeyboard from "../assets/img/virtualkeyboard.png";
 import dallClone from "../assets/img/dalle-clone.png";
-import projImg3 from "../assets/img/project-img3.png";
 import recipeGenerator from "../assets/img/recipe-generator.png";
 import weatherApp from "../assets/img/weather-app.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -25,13 +25,12 @@ export const Projects = () => {
         },
         {
         title: "Virtual Keyboard",
-        description: "A fully-functioning virtual keyboard that also allows for customization!",
-        imgUrl: projImg3,
+        description: "A fully-functioning virtual keyboard! Simple but I quite like the color scheme here!",
+        imgUrl: virtualKeyboard,
         },
         {
         title: "Dall-E 2.0 Clone",
         description: "Fully functional clone of Dall-E 2.0 built with MERN stack.",
-
         imgUrl: dallClone,
         },
         {

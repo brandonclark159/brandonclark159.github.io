@@ -1,5 +1,6 @@
 {
   "name": "personal-portfolio",
+  "homepage": "https://bclark-webdev-online",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

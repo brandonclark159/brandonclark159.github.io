@@ -311,6 +311,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 @keyframes updown {
     0% {
@@ -518,7 +519,7 @@ margin-left: 8px;
 /* Contact Form CSS */
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 60px 0;
 }
 .contact img {
   width: 92%;
